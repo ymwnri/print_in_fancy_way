@@ -2,6 +2,10 @@
 # Display the user info in a fancy way
 # Print a progress bar while the program is loading
 
+# Import Modules
+from itertools import cycle
+from time import sleep
+
 # Ask for user input
 first_name = input("Enter your First Name: ")
 last_name = input("Enter your Last Name: ")
