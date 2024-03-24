@@ -20,3 +20,6 @@ def progress(percent=0, width=30):
 for i in range(101):
     progress(i)
     sleep(0.1)
+
+# Print user info
+print(f"\n\nHello, I am {first_name} {last_name}! My dream job is to become a {dream_job}.")
